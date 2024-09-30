@@ -1,5 +1,10 @@
 #include <bits/stdc++.h>
 using namespace std;
+/*
+Weight: 2 3 4 5
+Value: 1 3 5 3
+Limitation: 8Kg
+*/
 int knapsack(int n, int weight[], int value[], int W)
 {
     if (n == 0 || W == 0)
